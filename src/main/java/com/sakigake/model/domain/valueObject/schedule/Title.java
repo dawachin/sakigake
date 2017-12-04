@@ -4,7 +4,7 @@ import com.sakigake.model.domain.valueObject.ValueObjectInterface;
 import com.sakigake.model.domain.valueObject.ValueObjectAbstract;
 import lombok.Getter;
 
-public class Title extends ValueObjectAbstract implements ValueObjectInterface {
+public class Title extends ValueObjectAbstract implements ValueObjectInterface{
 
     @Getter
     private String title;
@@ -19,7 +19,7 @@ public class Title extends ValueObjectAbstract implements ValueObjectInterface {
     }
 
     /** 値チェック */
-    private void isCheck() {
+    protected void isCheck() {
 
     }
 

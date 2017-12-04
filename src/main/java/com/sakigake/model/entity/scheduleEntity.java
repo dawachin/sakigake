@@ -1,11 +1,15 @@
 package com.sakigake.model.entity;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.Entity;
 import java.util.Date;
 
+/**
+ *
+ * スケジュールテーブル
+ *
+ * */
 @Entity
 @Data
 public class scheduleEntity {
